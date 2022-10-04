@@ -1,0 +1,21 @@
+21:01:43 **** Incremental Build of configuration Debug for project ot_gesture_updated ****
+make -j4 all 
+arm-none-eabi-size   ot_gesture_updated.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22260	    132	   1916	  24308	   5ef4	ot_gesture_updated.elf
+Finished building: default.size.stdout
+ 
+21:01:45 **** Incremental Build of configuration Debug for project ot_gesture_updated ****
+make -j4 all 
+arm-none-eabi-size   ot_gesture_updated.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22260	    132	   1916	  24308	   5ef4	ot_gesture_updated.elf
+Finished building: default.size.stdout
+ 
+21:31:10 **** Incremental Build of configuration Debug for project ot_gesture_updated ****
+make -j4 all 
+arm-none-eabi-size   ot_gesture_updated.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22260	    132	   1916	  24308	   5ef4	ot_gesture_updated.elf
+Finished building: default.size.stdout
+ 
