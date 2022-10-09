@@ -1,0 +1,1104 @@
+2022-10-04 20:51:51,424 [INFO] Activator:177 - 
+
+
+2022-10-04 20:51:51,430 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-04 20:52:01,280 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-10-04 20:52:03,160 [INFO] McuFinderGlobals:39 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-10-04 20:52:09,075 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913
+2022-10-04 20:52:09,115 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/mcu/
+2022-10-04 20:52:09,117 [INFO] ApiDb:260 - Set plugin database path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/plugins/boardmanager/
+2022-10-04 20:52:09,119 [WARN] ApiDb:245 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/plugins/mcufinder/images/
+2022-10-04 20:52:09,166 [INFO] ApiDb:226 - Set database path to: C:\Users\Bheem\.stmcufinder\plugins\mcufinder//mcu/
+2022-10-04 20:52:09,170 [INFO] DbMcusAds:119 - Set database path to: C:\Users\Bheem\.stmcufinder\plugins\mcufinder//mcu/
+2022-10-04 20:52:09,178 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Bheem\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-10-04 20:52:09,531 [INFO] RulesReader:57 - Compatibility file has been processed (281 Rules)
+2022-10-04 20:52:09,846 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/mcu/
+2022-10-04 20:52:09,847 [INFO] ApiDb:260 - Set plugin database path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/plugins/boardmanager/
+2022-10-04 20:52:09,848 [INFO] ApiDb:247 - Set plugin images path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/plugins/mcufinder/images/
+2022-10-04 20:52:09,849 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Bheem\.stmcufinder\plugins\mcufinder/ => C:\Users\Bheem\.stmcufinder\plugins\mcufinder
+2022-10-04 20:52:09,850 [INFO] ApiDb:226 - Set database path to: C:\Users\Bheem\.stmcufinder\plugins\mcufinder//mcu/
+2022-10-04 20:52:09,850 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Bheem\.stmcufinder\plugins\mcufinder/ => C:\Users\Bheem\.stmcufinder\plugins\mcufinder
+2022-10-04 20:52:09,850 [INFO] DbMcusAds:119 - Set database path to: C:\Users\Bheem\.stmcufinder\plugins\mcufinder//mcu/
+2022-10-04 20:52:09,852 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Bheem\.stmcufinder\plugins\mcufinder/ => C:\Users\Bheem\.stmcufinder\plugins\mcufinder
+2022-10-04 20:52:09,854 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Bheem\.stmcufinder\plugins\mcufinder/ => C:\Users\Bheem\.stmcufinder\plugins\mcufinder
+2022-10-04 20:52:09,854 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Bheem\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-10-04 20:52:10,046 [INFO] MainPanel:230 - HeapMemory: 268435456
+2022-10-04 20:52:10,294 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/mcu/
+2022-10-04 20:52:10,294 [INFO] ApiDb:260 - Set plugin database path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/plugins/boardmanager/
+2022-10-04 20:52:10,294 [INFO] ApiDb:247 - Set plugin images path to: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\/plugins/mcufinder/images/
+2022-10-04 20:52:10,297 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Bheem\.stmcufinder\plugins\mcufinder/ => C:\Users\Bheem\.stmcufinder\plugins\mcufinder
+2022-10-04 20:52:10,297 [INFO] ApiDb:226 - Set database path to: C:\Users\Bheem\.stmcufinder\plugins\mcufinder//mcu/
+2022-10-04 20:52:10,298 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Bheem\.stmcufinder\plugins\mcufinder/ => C:\Users\Bheem\.stmcufinder\plugins\mcufinder
+2022-10-04 20:52:10,298 [INFO] DbMcusAds:119 - Set database path to: C:\Users\Bheem\.stmcufinder\plugins\mcufinder//mcu/
+2022-10-04 20:52:10,299 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Bheem\.stmcufinder\plugins\mcufinder/ => C:\Users\Bheem\.stmcufinder\plugins\mcufinder
+2022-10-04 20:52:10,299 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\Bheem\.stmcufinder\plugins\mcufinder/ => C:\Users\Bheem\.stmcufinder\plugins\mcufinder
+2022-10-04 20:52:10,299 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\Bheem\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-10-04 20:52:10,353 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913
+2022-10-04 20:52:10,356 [INFO] PluginManage:188 - Search for loadable plugins [exclusion list=, ]
+2022-10-04 20:52:10,360 [INFO] PluginManage:302 - Check plugin analytics
+2022-10-04 20:52:10,637 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-10-04 20:52:10,812 [INFO] AnalyticsPlugin:257 - Accepted Software Licenses: 
+2022-10-04 20:52:10,813 [INFO] AnalyticsPlugin:259 - Accepted CMSIS Pack Licenses: 
+2022-10-04 20:52:10,813 [INFO] AnalyticsPlugin:261 - Accepted Firmware Licenses: 
+2022-10-04 20:52:10,838 [INFO] PluginManage:352 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-10-04 20:52:10,838 [INFO] PluginManage:302 - Check plugin clock
+2022-10-04 20:52:10,948 [INFO] PluginManage:352 - Loaded plugin clock (category:base,tabindex:2)
+2022-10-04 20:52:10,949 [INFO] PluginManage:302 - Check plugin ddr
+2022-10-04 20:52:10,955 [INFO] PluginManage:352 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-10-04 20:52:10,956 [INFO] PluginManage:302 - Check plugin filemanager
+2022-10-04 20:52:11,283 [INFO] PluginManage:352 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-10-04 20:52:11,284 [INFO] PluginManage:302 - Check plugin ipmanager
+2022-10-04 20:52:11,303 [INFO] PluginManage:352 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-10-04 20:52:11,303 [INFO] PluginManage:302 - Check plugin lpbam
+2022-10-04 20:52:11,347 [INFO] PluginManage:352 - Loaded plugin lpbam (category:base,tabindex:0)
+2022-10-04 20:52:11,347 [INFO] PluginManage:302 - Check plugin pinoutandconfiguration
+2022-10-04 20:52:11,389 [INFO] PluginManage:352 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-10-04 20:52:11,390 [INFO] PluginManage:302 - Check plugin pinoutconfig
+2022-10-04 20:52:11,592 [INFO] PluginManage:352 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-10-04 20:52:11,598 [INFO] PluginManage:302 - Check plugin power
+2022-10-04 20:52:11,734 [INFO] PluginManage:352 - Loaded plugin power (category:power,tabindex:4)
+2022-10-04 20:52:11,734 [INFO] PluginManage:302 - Check plugin projectmanager
+2022-10-04 20:52:11,807 [INFO] PluginManage:352 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-10-04 20:52:11,810 [INFO] PluginManage:302 - Check plugin thirdparty
+2022-10-04 20:52:12,446 [WARN] IntegrityCheckThread:78 - waiting for thirdparty lock release [integrity check]
+2022-10-04 20:52:12,453 [INFO] PluginManage:352 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-10-04 20:52:12,454 [INFO] PluginManage:302 - Check plugin tools
+2022-10-04 20:52:12,453 [INFO] IntegrityCheckThread:80 - entering critical section [integrity check]
+2022-10-04 20:52:12,457 [INFO] ThirdPartyUpdaterWithRetryManager:66 - Updater plugin not ready yet. [1/15]
+2022-10-04 20:52:12,568 [INFO] PluginManage:352 - Loaded plugin tools (category:base,tabindex:7)
+2022-10-04 20:52:12,568 [INFO] PluginManage:302 - Check plugin tutovideos
+2022-10-04 20:52:13,138 [INFO] PluginManage:352 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2022-10-04 20:52:13,138 [INFO] PluginManage:302 - Check plugin updater
+2022-10-04 20:52:13,173 [INFO] PluginManage:352 - Loaded plugin updater (category:base,tabindex:12)
+2022-10-04 20:52:13,177 [INFO] PluginManage:275 - PluginManage : Loaded plugins [14]
+2022-10-04 20:52:13,934 [INFO] PinOutPanel:1465 - setPackage(No Configuration,No Configuration)
+2022-10-04 20:52:14,164 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:14,167 [INFO] PluginManager:213 - loadIPPluginJar : add adc
+2022-10-04 20:52:14,250 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:14,251 [INFO] PluginManager:213 - loadIPPluginJar : add aes
+2022-10-04 20:52:14,347 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:14,348 [INFO] PluginManager:213 - loadIPPluginJar : add can
+2022-10-04 20:52:14,397 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:14,398 [INFO] PluginManager:213 - loadIPPluginJar : add comp
+2022-10-04 20:52:14,471 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:14,471 [INFO] PluginManager:213 - loadIPPluginJar : add cryp
+2022-10-04 20:52:14,536 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:14,537 [INFO] PluginManager:213 - loadIPPluginJar : add dfsdm
+2022-10-04 20:52:14,571 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:14,573 [INFO] PluginManager:213 - loadIPPluginJar : add dma
+2022-10-04 20:52:14,670 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:14,671 [INFO] PluginManager:213 - loadIPPluginJar : add dma3
+2022-10-04 20:52:14,712 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:14,713 [INFO] PluginManager:213 - loadIPPluginJar : add fatfs
+2022-10-04 20:52:14,824 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:14,824 [INFO] PluginManager:213 - loadIPPluginJar : add fmc
+2022-10-04 20:52:14,859 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:14,860 [INFO] PluginManager:213 - loadIPPluginJar : add freertos
+2022-10-04 20:52:14,905 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:14,905 [INFO] PluginManager:213 - loadIPPluginJar : add genericplugin
+2022-10-04 20:52:15,105 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:15,105 [INFO] PluginManager:213 - loadIPPluginJar : add gfxmmu
+2022-10-04 20:52:15,410 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:15,411 [INFO] PluginManager:213 - loadIPPluginJar : add gic
+2022-10-04 20:52:15,439 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:15,440 [INFO] PluginManager:213 - loadIPPluginJar : add gpio
+2022-10-04 20:52:15,468 [INFO] ThirdPartyUpdaterWithRetryManager:66 - Updater plugin not ready yet. [2/15]
+2022-10-04 20:52:15,635 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:15,637 [INFO] PluginManager:213 - loadIPPluginJar : add gtzc
+2022-10-04 20:52:15,704 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:15,705 [INFO] PluginManager:213 - loadIPPluginJar : add hash
+2022-10-04 20:52:15,822 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:15,822 [INFO] PluginManager:213 - loadIPPluginJar : add i2c
+2022-10-04 20:52:15,905 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:15,905 [INFO] PluginManager:213 - loadIPPluginJar : add i2s
+2022-10-04 20:52:15,934 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:15,935 [INFO] PluginManager:213 - loadIPPluginJar : add ipddr
+2022-10-04 20:52:16,117 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,117 [INFO] PluginManager:213 - loadIPPluginJar : add linkedlist
+2022-10-04 20:52:16,180 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,180 [INFO] PluginManager:213 - loadIPPluginJar : add lorawan
+2022-10-04 20:52:16,249 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,249 [INFO] PluginManager:213 - loadIPPluginJar : add ltdc
+2022-10-04 20:52:16,281 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,281 [INFO] PluginManager:213 - loadIPPluginJar : add mdma
+2022-10-04 20:52:16,305 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,306 [INFO] PluginManager:213 - loadIPPluginJar : add nvic
+2022-10-04 20:52:16,381 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,381 [INFO] PluginManager:213 - loadIPPluginJar : add opamp
+2022-10-04 20:52:16,508 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,509 [INFO] PluginManager:213 - loadIPPluginJar : add openamp
+2022-10-04 20:52:16,596 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,597 [INFO] PluginManager:213 - loadIPPluginJar : add pdm2pcm
+2022-10-04 20:52:16,625 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,633 [INFO] PluginManager:213 - loadIPPluginJar : add plateformsettings
+2022-10-04 20:52:16,696 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,696 [INFO] PluginManager:213 - loadIPPluginJar : add quadspi
+2022-10-04 20:52:16,725 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,725 [INFO] PluginManager:213 - loadIPPluginJar : add resmgrutility
+2022-10-04 20:52:16,823 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,824 [INFO] PluginManager:213 - loadIPPluginJar : add sai
+2022-10-04 20:52:16,891 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,891 [INFO] PluginManager:213 - loadIPPluginJar : add spi
+2022-10-04 20:52:16,997 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:16,998 [INFO] PluginManager:213 - loadIPPluginJar : add stm32_wpan
+2022-10-04 20:52:17,038 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:17,039 [INFO] PluginManager:213 - loadIPPluginJar : add tim
+2022-10-04 20:52:17,146 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:17,146 [INFO] PluginManager:213 - loadIPPluginJar : add touchsensing
+2022-10-04 20:52:17,186 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:17,187 [INFO] PluginManager:213 - loadIPPluginJar : add tracer_emb
+2022-10-04 20:52:17,231 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:17,232 [INFO] PluginManager:213 - loadIPPluginJar : add ts
+2022-10-04 20:52:17,279 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:17,279 [INFO] PluginManager:213 - loadIPPluginJar : add tsc
+2022-10-04 20:52:17,331 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:17,332 [INFO] PluginManager:213 - loadIPPluginJar : add ucpd
+2022-10-04 20:52:17,436 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:17,436 [INFO] PluginManager:213 - loadIPPluginJar : add usart
+2022-10-04 20:52:17,536 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:52:17,536 [INFO] PluginManager:213 - loadIPPluginJar : add usbx
+2022-10-04 20:52:18,139 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-10-04 20:52:18,468 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-10-04 20:52:18,471 [INFO] ThirdPartyUpdaterWithRetryManager:66 - Updater plugin not ready yet. [3/15]
+2022-10-04 20:52:18,499 [INFO] DbMcusAds:47 - JSON generation date=Thu Sep 30 12:25:09 IST 2021 (1632984909265)
+2022-10-04 20:52:18,500 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-10-04 20:52:18,679 [WARN] DetailPanel:320 - Failed to get advertising image, set to default
+2022-10-04 20:52:18,954 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-10-04 20:52:18,957 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-10-04 20:52:18,959 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-10-04 20:52:18,960 [WARN] DetailPanel:320 - Failed to get advertising image, set to default
+2022-10-04 20:52:18,962 [FATAL] Updater:297 - Updater called before beeing initialized
+2022-10-04 20:52:19,109 [INFO] Updater:1026 - Updater Version found : 6.5.0
+2022-10-04 20:52:19,148 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913
+2022-10-04 20:52:19,557 [INFO] MainUpdater:2729 - connection check result : 10
+2022-10-04 20:52:19,557 [INFO] MainUpdater:3414 - Updater definition file requires update
+2022-10-04 20:52:19,561 [INFO] MainUpdater:276 - Updater Check For Update Now.
+2022-10-04 20:52:19,561 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.50
+2022-10-04 20:52:19,612 [INFO] ServerAccessManage:359 - Download File updaters.zip
+2022-10-04 20:52:19,783 [INFO] FileExtend:235 - Unzip File : updaters.zip
+2022-10-04 20:52:19,783 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-10-04 20:52:20,788 [INFO] ServerAccessManage:359 - Download File PacksControlFlags.xml
+2022-10-04 20:52:21,058 [INFO] ServerAccessManage:359 - Download File cubemx.pidx
+2022-10-04 20:52:21,356 [INFO] LoadServerUpdatesThread:362 - End of LoadServerUpdate Thread
+2022-10-04 20:52:21,478 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-10-04 20:52:21,479 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [1/15]
+2022-10-04 20:52:21,751 [INFO] CheckServerUpdateThread:115 - End of CheckServer Thread
+2022-10-04 20:52:21,954 [INFO] MainUpdater:2729 - connection check result : 10
+2022-10-04 20:52:22,060 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-10-04 20:52:22,330 [INFO] ServerAccessManage:359 - Download File mcusAds.json._tmp_
+2022-10-04 20:52:22,472 [INFO] LoadUrlFilesThread:146 - End of LoadUrlFiles Thread
+2022-10-04 20:52:22,612 [INFO] ServerAccessManage:359 - Download File cube-finder-db.zip
+2022-10-04 20:52:24,495 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-10-04 20:52:24,496 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [2/15]
+2022-10-04 20:52:27,498 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-10-04 20:52:27,498 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [3/15]
+2022-10-04 20:52:28,056 [INFO] FileExtend:235 - Unzip File : cube-finder-db.zip
+2022-10-04 20:52:28,057 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-10-04 20:52:29,848 [INFO] LoadUrlFilesThread:146 - End of LoadUrlFiles Thread
+2022-10-04 20:52:30,504 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-10-04 20:52:30,504 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [4/15]
+2022-10-04 20:52:31,017 [INFO] ServerAccessManage:359 - Download File crdb.zip
+2022-10-04 20:52:32,257 [INFO] FileExtend:235 - Unzip File : crdb.zip
+2022-10-04 20:52:32,257 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-10-04 20:52:32,555 [INFO] LoadUrlFilesThread:146 - End of LoadUrlFiles Thread
+2022-10-04 20:52:33,253 [INFO] ServerAccessManage:359 - Download File tutoVideoDB.zip
+2022-10-04 20:52:33,297 [INFO] FileExtend:235 - Unzip File : tutoVideoDB.zip
+2022-10-04 20:52:33,297 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-10-04 20:52:33,522 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-10-04 20:52:33,523 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [5/15]
+2022-10-04 20:52:33,664 [INFO] LoadUrlFilesThread:146 - End of LoadUrlFiles Thread
+2022-10-04 20:52:33,690 [INFO] DbMcusAds:47 - JSON generation date=Thu Sep 30 12:25:09 IST 2021 (1632984909247)
+2022-10-04 20:52:34,263 [INFO] LoadUrlFilesThread:173 - End of LoadServerUrlFiles without Thread
+2022-10-04 20:52:34,268 [INFO] TargetSelectorAdapter:228 - Refresh data is successful
+2022-10-04 20:52:34,808 [INFO] ApiDb:567 - Connected to CubeFinder SQLite database (C:\Users\Bheem\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2022-10-04 20:52:34,888 [INFO] ApiDb:654 - CubeFinder database Data Model version=2.1
+2022-10-04 20:52:34,888 [INFO] ApiDb:655 - CubeFinder database Configuration version=3.0.32
+2022-10-04 20:52:34,890 [INFO] ApiDb:656 - CubeFinder database generation date=2022-08-05 (1659688109)
+2022-10-04 20:52:34,890 [INFO] ApiDb:657 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WB_V1.14.1, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.3, X-CUBE-BLE2_V3.3.0, X-CUBE-EEPRMA1_V3.1.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-NFC4_V2.0.4, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2022-10-04 20:52:37,147 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2022-10-04 20:52:37,652 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2022-10-04 20:52:38,214 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.2.0
+2022-10-04 20:52:39,180 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.1.1.0
+2022-10-04 20:52:39,563 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2022-10-04 20:52:39,858 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.1.0
+2022-10-04 20:52:40,068 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.19.1
+2022-10-04 20:52:40,234 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.3
+2022-10-04 20:52:40,293 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.0.0
+2022-10-04 20:52:40,322 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.0
+2022-10-04 20:52:40,353 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.1
+2022-10-04 20:52:40,373 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.2
+2022-10-04 20:52:40,619 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.2.1
+2022-10-04 20:52:40,996 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.4
+2022-10-04 20:52:41,248 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.2.2
+2022-10-04 20:52:41,761 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.3
+2022-10-04 20:52:42,113 [WARN] PackLoader:238 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.4.8.0
+2022-10-04 20:52:42,248 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.2
+2022-10-04 20:52:42,621 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.1.0
+2022-10-04 20:52:43,211 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.2.0
+2022-10-04 20:52:43,568 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0
+2022-10-04 20:52:43,783 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.0.0
+2022-10-04 20:52:43,943 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.2.0.0
+2022-10-04 20:52:44,010 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2022-10-04 20:52:45,045 [INFO] ApiDb:212 - Found 97 in-development CPN: [NUCLEO-C031C6, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L4R5QGI6STR, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q]
+2022-10-04 20:52:45,069 [INFO] DbMcus:201 - Found 3505 MCUs, 3505 are supported
+2022-10-04 20:52:45,113 [INFO] ApiDb:407 - Load user favorites file C:\Users\Bheem/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-10-04 20:52:45,113 [INFO] ApiDb:411 - User favorites MCUs=[]
+2022-10-04 20:52:45,118 [INFO] DbMcus:207 - Set 0 / 0 favorites MCUs
+2022-10-04 20:52:45,136 [INFO] ApiDb:654 - CubeFinder database Data Model version=2.1
+2022-10-04 20:52:45,136 [INFO] ApiDb:655 - CubeFinder database Configuration version=3.0.32
+2022-10-04 20:52:45,136 [INFO] ApiDb:656 - CubeFinder database generation date=2022-08-05 (1659688109)
+2022-10-04 20:52:45,136 [INFO] ApiDb:657 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WB_V1.14.1, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.3, X-CUBE-BLE2_V3.3.0, X-CUBE-EEPRMA1_V3.1.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-NFC4_V2.0.4, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2022-10-04 20:52:45,277 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.4.2.0
+2022-10-04 20:52:45,488 [INFO] DbBoardsSqlite:220 - include board P-NUCLEO-WB55-NUCLEO as a kit item of type 'Nucleo-64'
+2022-10-04 20:52:45,489 [INFO] DbBoardsSqlite:220 - include board P-NUCLEO-WB55-USBDONGLE as a kit item of type 'Nucleo USB Dongle'
+2022-10-04 20:52:45,489 [INFO] DbBoardsSqlite:220 - include board STEVAL-IDP005V1 as a kit item of type 'Evaluation Board'
+2022-10-04 20:52:45,490 [INFO] DbBoardsSqlite:220 - include board STEVAL-IDP005V2 as a kit item of type 'Evaluation Board'
+2022-10-04 20:52:45,518 [INFO] ApiDb:212 - Found 97 in-development CPN: [NUCLEO-C031C6, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L4R5QGI6STR, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q]
+2022-10-04 20:52:45,613 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.1.0.0
+2022-10-04 20:52:46,195 [INFO] BoardInfo:872 - No configuration file found for board P-NUCLEO-WB55
+2022-10-04 20:52:46,197 [INFO] DbBoards:144 - Kit is not supported: P-NUCLEO-WB55
+2022-10-04 20:52:46,205 [INFO] BoardInfo:872 - No configuration file found for board STEVAL-ASTRA1B
+2022-10-04 20:52:46,205 [INFO] DbBoards:144 - Board is not supported: STEVAL-ASTRA1B
+2022-10-04 20:52:46,213 [INFO] BoardInfo:872 - No configuration file found for board STEVAL-BFA001V1B
+2022-10-04 20:52:46,213 [INFO] DbBoards:144 - Kit is not supported: STEVAL-BFA001V1B
+2022-10-04 20:52:46,219 [INFO] BoardInfo:872 - No configuration file found for board STEVAL-BFA001V2B
+2022-10-04 20:52:46,220 [INFO] DbBoards:144 - Kit is not supported: STEVAL-BFA001V2B
+2022-10-04 20:52:46,421 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.3.0
+2022-10-04 20:52:46,778 [INFO] DbBoards:148 - Found 173 boards, 169 are supported
+2022-10-04 20:52:46,796 [INFO] ApiDb:407 - Load user favorites file C:\Users\Bheem/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-10-04 20:52:46,796 [INFO] ApiDb:411 - User favorites Boards=[]
+2022-10-04 20:52:46,796 [INFO] DbBoards:174 - Set 0 / 0 favorites Boards
+2022-10-04 20:52:46,848 [INFO] ApiDb:654 - CubeFinder database Data Model version=2.1
+2022-10-04 20:52:46,848 [INFO] ApiDb:655 - CubeFinder database Configuration version=3.0.32
+2022-10-04 20:52:46,848 [INFO] ApiDb:656 - CubeFinder database generation date=2022-08-05 (1659688109)
+2022-10-04 20:52:46,848 [INFO] ApiDb:657 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WB_V1.14.1, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.3, X-CUBE-BLE2_V3.3.0, X-CUBE-EEPRMA1_V3.1.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-NFC4_V2.0.4, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2022-10-04 20:52:47,427 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.2.0
+2022-10-04 20:52:48,285 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.2.1
+2022-10-04 20:52:49,271 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.1.0.0
+2022-10-04 20:52:49,314 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.6.0.0
+2022-10-04 20:52:49,421 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.0.0
+2022-10-04 20:52:49,718 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.2.0
+2022-10-04 20:52:50,158 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.1.0
+2022-10-04 20:52:50,335 [INFO] DbExamplesSqlite:367 - Ignored 31 examples not supported by CubeIDE
+2022-10-04 20:52:50,337 [INFO] DbExamplesSqlite:368 - Found 6197 examples active
+2022-10-04 20:52:50,338 [INFO] DbExamplesSqlite:369 - Found 89 examples obsolete
+2022-10-04 20:52:50,338 [INFO] DbExamplesSqlite:370 - Found 0 examples under development
+2022-10-04 20:52:50,339 [INFO] DbExamplesSqlite:371 - Found 76 examples not building
+2022-10-04 20:52:50,346 [INFO] DbExamples:124 - Found 6242 examples
+2022-10-04 20:52:50,383 [INFO] DbExamples:221 - Found 77 boards with related examples
+2022-10-04 20:52:50,388 [INFO] DbExamples:234 - Found 64 MCUs with related examples
+2022-10-04 20:52:50,458 [INFO] ApiDb:398 - User favorites file not found: C:\Users\Bheem/.stm32cubeide/favorites.examples.txt
+2022-10-04 20:52:50,461 [INFO] DbExamples:249 - Set 0 / 0 favorites Examples
+2022-10-04 20:52:50,579 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2022-10-04 20:52:50,684 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2022-10-04 20:52:50,759 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.2.0
+2022-10-04 20:52:51,088 [WARN] PackLoader:238 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.4.7.0
+2022-10-04 20:52:51,382 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.18.1
+2022-10-04 20:52:51,486 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.18.0
+2022-10-04 20:52:51,763 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.0.0
+2022-10-04 20:52:52,123 [WARN] PackLoader:238 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2022-10-04 20:52:52,248 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0
+2022-10-04 20:52:52,556 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.2.1.0
+2022-10-04 20:52:52,673 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.0.0
+2022-10-04 20:52:53,264 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.0.0
+2022-10-04 20:52:54,277 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2022-10-04 20:52:54,507 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2022-10-04 20:52:54,754 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-10-04 20:52:54,768 [INFO] MultiScanPanel:195 - Auto-refresh data requested => check proxy status ongoing
+2022-10-04 20:52:54,774 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2022-10-04 20:52:58,003 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2022-10-04 20:53:00,060 [WARN] PackLoader:238 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.2.0
+2022-10-04 20:53:00,343 [INFO] LoadUrlFilesThread:173 - End of LoadServerUrlFiles without Thread
+2022-10-04 20:53:00,518 [INFO] DetailPanel:315 - Set advertising image to C:/Users/Bheem/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-10-04 20:53:03,793 [INFO] ToolPreferences:109 - Table McuList, key=mcufinder_cubeide.mculist: column name not found=IO
+2022-10-04 20:53:03,793 [INFO] ToolPreferences:109 - Table McuList, key=mcufinder_cubeide.mculist: column name not found=Freq.
+2022-10-04 20:53:03,829 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.17.0
+2022-10-04 20:53:04,073 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.1
+2022-10-04 20:53:04,487 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.0
+2022-10-04 20:53:05,864 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.2.0.0
+2022-10-04 20:53:06,195 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2022-10-04 20:53:06,520 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2022-10-04 20:53:06,697 [WARN] PackLoader:238 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.2
+2022-10-04 20:53:06,721 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.20.0
+2022-10-04 20:53:06,894 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.0.0
+2022-10-04 20:53:07,003 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.4.0.0
+2022-10-04 20:53:07,066 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2022-10-04 20:53:07,217 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.1.0
+2022-10-04 20:53:07,552 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.1.0.0
+2022-10-04 20:53:07,774 [WARN] PackLoader:238 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2022-10-04 20:53:07,869 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2022-10-04 20:53:07,992 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.0.0
+2022-10-04 20:53:08,211 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.8.3.0
+2022-10-04 20:53:08,498 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.0.0
+2022-10-04 20:53:08,539 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.0
+2022-10-04 20:53:08,579 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.1
+2022-10-04 20:53:08,659 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.5.2.0
+2022-10-04 20:53:09,010 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.0.0
+2022-10-04 20:53:09,034 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.16.1
+2022-10-04 20:53:09,385 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.0.0
+2022-10-04 20:53:09,385 [INFO] ThirdParty:925 - Integrity check success = true
+2022-10-04 20:53:09,385 [INFO] IntegrityCheckThread:94 - exiting critical section [integrity check]
+2022-10-04 20:53:09,385 [INFO] IntegrityCheckThread:97 - End integrity checks thread
+2022-10-04 20:55:13,885 [INFO] MainUpdater:2729 - connection check result : 10
+2022-10-04 20:55:13,885 [INFO] MainUpdater:2729 - connection check result : 10
+2022-10-04 20:55:14,032 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-10-04 20:55:14,032 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.50
+2022-10-04 20:55:14,036 [WARN] ThirdParty:823 - waiting for thirdparty lock release [close project]
+2022-10-04 20:55:14,036 [INFO] ThirdParty:825 - entering critical section [close project]
+2022-10-04 20:55:14,036 [INFO] ThirdParty:835 - exiting critical section [close project]
+2022-10-04 20:55:14,055 [INFO] PinOutPanel:1465 - setPackage(No Configuration,No Configuration)
+2022-10-04 20:55:14,068 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 479517312 Bytes (504365056)
+2022-10-04 20:55:14,071 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-10-04 20:55:14,071 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.50
+2022-10-04 20:55:14,071 [INFO] OpenFileManager:303 - Change cursor
+2022-10-04 20:55:14,556 [INFO] Mcu:1893 - Initializing MCU STM32F030C8Tx STM32F030C8Tx STM32F030C8T6
+2022-10-04 20:55:18,536 [INFO] Context:599 - Trying to add GPIOservice into a context  which must be forbidden
+2022-10-04 20:55:20,214 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2022-10-04 20:55:20,215 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2022-10-04 20:55:20,215 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2022-10-04 20:55:20,221 [WARN] ApiManager:304 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-10-04 20:55:20,221 [WARN] ApiManager:304 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-10-04 20:55:20,221 [WARN] ApiManager:304 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-10-04 20:55:20,713 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2022-10-04 20:55:20,714 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2022-10-04 20:55:20,714 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2022-10-04 20:55:21,116 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.2.0: no header file found
+2022-10-04 20:55:21,116 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.2.0: no header file found
+2022-10-04 20:55:21,117 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.2.0: no header file found
+2022-10-04 20:55:21,135 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.3: no header file found
+2022-10-04 20:55:21,140 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2022-10-04 20:55:21,141 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2022-10-04 20:55:21,152 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2022-10-04 20:55:21,152 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2022-10-04 20:55:21,153 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2022-10-04 20:55:21,153 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2022-10-04 20:55:21,154 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2022-10-04 20:55:21,164 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-10-04 20:55:21,164 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-10-04 20:55:21,164 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-10-04 20:55:21,174 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.0: no header file found
+2022-10-04 20:55:21,174 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.1: no header file found
+2022-10-04 20:55:21,174 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2022-10-04 20:55:21,174 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.1: no header file found
+2022-10-04 20:55:21,174 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.4: no header file found
+2022-10-04 20:55:21,180 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.2: no header file found
+2022-10-04 20:55:21,181 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.3: no header file found
+2022-10-04 20:55:21,182 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.2: no header file found
+2022-10-04 20:55:21,188 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.0: no header file found
+2022-10-04 20:55:21,200 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-10-04 20:55:21,202 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-10-04 20:55:21,212 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-10-04 20:55:21,226 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,226 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,226 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,226 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,226 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,231 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,231 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,231 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,231 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,231 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,231 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,231 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,231 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,231 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,231 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,231 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,231 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,236 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-10-04 20:55:21,241 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC07A1' from pack STMicroelectronics.X-CUBE-NFC7.1.0.0: no header file found
+2022-10-04 20:55:21,255 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2022-10-04 20:55:21,255 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2022-10-04 20:55:21,255 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2022-10-04 20:55:21,267 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-10-04 20:55:21,267 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-10-04 20:55:21,267 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-10-04 20:55:21,644 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-10-04 20:55:21,645 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-10-04 20:55:21,645 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-10-04 20:55:21,957 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-10-04 20:55:21,999 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-10-04 20:55:21,999 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-10-04 20:55:22,236 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2022-10-04 20:55:22,236 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2022-10-04 20:55:22,236 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2022-10-04 20:55:22,241 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2022-10-04 20:55:22,246 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2022-10-04 20:55:22,247 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-10-04 20:55:22,247 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-10-04 20:55:22,247 [WARN] ApiManager:304 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-10-04 20:55:22,247 [WARN] ApiManager:304 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-10-04 20:55:22,247 [WARN] ApiManager:304 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-10-04 20:55:22,251 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.1.0: no header file found
+2022-10-04 20:55:22,252 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-10-04 20:55:22,252 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-10-04 20:55:22,252 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-10-04 20:55:22,252 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.3.0: no header file found
+2022-10-04 20:55:22,317 [INFO] ThirdPartyModel:282 - Start build external matchings
+2022-10-04 20:55:28,218 [INFO] ThirdPartyModel:295 - End build external matchings
+2022-10-04 20:55:29,057 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 518355128 Bytes (589299712)
+2022-10-04 20:55:29,442 [WARN] ThirdParty:785 - waiting for thirdparty lock release [change project]
+2022-10-04 20:55:29,443 [INFO] ThirdParty:787 - entering critical section [change project]
+2022-10-04 20:55:29,443 [INFO] ThirdParty:977 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-10-04 20:55:29,443 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.0.0
+2022-10-04 20:55:29,445 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2022-10-04 20:55:29,445 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2022-10-04 20:55:29,445 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-10-04 20:55:29,445 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.0.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.0.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.2.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 1.1.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.19.1
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.0.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.1
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.1
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.4
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-10-04 20:55:29,446 [INFO] ThirdParty:977 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.8.0
+2022-10-04 20:55:29,452 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.2
+2022-10-04 20:55:29,453 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.17.0
+2022-10-04 20:55:29,453 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-10-04 20:55:29,453 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2022-10-04 20:55:29,453 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-10-04 20:55:29,453 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.1.0
+2022-10-04 20:55:29,453 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.0
+2022-10-04 20:55:29,453 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2022-10-04 20:55:29,453 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.0
+2022-10-04 20:55:29,453 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.0.0
+2022-10-04 20:55:29,453 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.0.0
+2022-10-04 20:55:29,453 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2022-10-04 20:55:29,456 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2022-10-04 20:55:29,456 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 2.0.0
+2022-10-04 20:55:29,456 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2022-10-04 20:55:29,456 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-10-04 20:55:29,456 [INFO] ThirdParty:977 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.2
+2022-10-04 20:55:29,456 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.20.0
+2022-10-04 20:55:29,456 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-10-04 20:55:29,457 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2022-10-04 20:55:29,457 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2022-10-04 20:55:29,457 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.0.0
+2022-10-04 20:55:29,457 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2022-10-04 20:55:29,457 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.2.0
+2022-10-04 20:55:29,457 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-10-04 20:55:29,457 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 1.0.0
+2022-10-04 20:55:29,458 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 1.0.0
+2022-10-04 20:55:29,458 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.3.0
+2022-10-04 20:55:29,458 [INFO] ThirdParty:977 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2022-10-04 20:55:29,458 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2022-10-04 20:55:29,458 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.2.0
+2022-10-04 20:55:29,459 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.0.0
+2022-10-04 20:55:29,459 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2022-10-04 20:55:29,459 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.1
+2022-10-04 20:55:29,459 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.3.0
+2022-10-04 20:55:29,459 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2022-10-04 20:55:29,459 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2022-10-04 20:55:29,460 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-10-04 20:55:29,460 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2022-10-04 20:55:29,460 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.0
+2022-10-04 20:55:29,460 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.0.0
+2022-10-04 20:55:29,460 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.0
+2022-10-04 20:55:29,460 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-10-04 20:55:29,460 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2022-10-04 20:55:29,460 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2022-10-04 20:55:29,460 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2022-10-04 20:55:29,461 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-10-04 20:55:29,464 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2022-10-04 20:55:29,464 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2022-10-04 20:55:29,464 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.0
+2022-10-04 20:55:29,464 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2022-10-04 20:55:29,464 [INFO] ThirdParty:977 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.7.0
+2022-10-04 20:55:29,464 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.1
+2022-10-04 20:55:29,465 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-10-04 20:55:29,465 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.1
+2022-10-04 20:55:29,465 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.0.0
+2022-10-04 20:55:29,465 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.0
+2022-10-04 20:55:29,465 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.0.0
+2022-10-04 20:55:29,465 [INFO] ThirdParty:793 - exiting critical section [change project]
+2022-10-04 20:55:31,562 [INFO] PinOutPanel:1465 - setPackage(No Configuration,No Configuration)
+2022-10-04 20:55:31,569 [INFO] PinOutPanel:1465 - setPackage(STM32F030C8Tx,LQFP48)
+2022-10-04 20:55:35,246 [INFO] UtilMem:74 - Before build in PCC Used Memory: 482369384 Bytes (589299712)
+2022-10-04 20:55:39,318 [INFO] UtilMem:74 - After build in PCC Used Memory: 493723480 Bytes (589299712)
+2022-10-04 20:55:39,545 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,545 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,545 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,545 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,545 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,545 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,545 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,552 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,553 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,553 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,553 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,556 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,556 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,556 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,556 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,561 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,561 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,561 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,561 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,561 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,561 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,566 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,566 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,566 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,569 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:39,569 [INFO] IPUIPlugin:75 - create IPUIPlugin
+2022-10-04 20:55:40,826 [INFO] OpenFileManager:323 - Restore cursor
+2022-10-04 20:55:48,896 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 503863128 Bytes (589299712)
+2022-10-04 20:55:49,132 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 513822552 Bytes (589299712)
+2022-10-04 20:55:51,349 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-10-04 20:55:51,350 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-10-04 20:55:51,350 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM6_7F0
+2022-10-04 20:55:51,350 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-10-04 20:55:51,350 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-10-04 20:55:51,351 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-10-04 20:55:51,351 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: I2C
+2022-10-04 20:55:51,353 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-10-04 20:55:55,069 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\MXTmpFiles\license.tmp_save
+2022-10-04 20:55:56,433 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\MXTmpFiles\license.tmp
+2022-10-04 20:55:58,194 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\MXTmpFiles\gpio.tmp_save
+2022-10-04 20:55:59,612 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\MXTmpFiles\gpio.tmp
+2022-10-04 20:56:03,307 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\Core\Src\stm32f0xx_it.c_save
+2022-10-04 20:56:04,641 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\Core\Src\stm32f0xx_it.c
+2022-10-04 20:56:04,718 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\Core\Inc\stm32f0xx_it.h_save
+2022-10-04 20:56:05,227 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\Core\Inc\stm32f0xx_it.h
+2022-10-04 20:56:05,513 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\Core\Src\stm32f0xx_hal_msp.c_save
+2022-10-04 20:56:06,352 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\Core\Src\stm32f0xx_hal_msp.c
+2022-10-04 20:56:06,378 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\MXTmpFiles\system.tmp_save
+2022-10-04 20:56:06,671 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\MXTmpFiles\system.tmp
+2022-10-04 20:56:06,705 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\Core\Inc\stm32f0xx_hal_conf.h_save
+2022-10-04 20:56:07,136 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\Core\Inc\stm32f0xx_hal_conf.h
+2022-10-04 20:56:07,254 [WARN] IPConfigManager:3312 - IP not found : TIM
+2022-10-04 20:56:07,258 [WARN] CodeGenerator:3483 - IP not found : null
+2022-10-04 20:56:07,284 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\Core\Inc\main.h_save
+2022-10-04 20:56:07,773 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\Core\Inc\main.h
+2022-10-04 20:56:07,801 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\Core\Src\main.c_save
+2022-10-04 20:56:08,390 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\Core\Src\main.c
+2022-10-04 20:56:11,606 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 899mS.
+2022-10-04 20:56:11,657 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-10-04 20:56:13,415 [INFO] ConfigFileManager:1287 - The Die is : DIE440
+2022-10-04 20:56:13,465 [INFO] ApiDbMcu:488 - Load IP Config File for FATFS
+2022-10-04 20:56:13,544 [INFO] ApiDbMcu:488 - Load IP Config File for FREERTOS
+2022-10-04 20:56:29,332 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 17675mS.
+2022-10-04 20:56:29,336 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 4mS.
+2022-10-04 20:56:29,360 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-10-04 20:56:32,231 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-10-04 20:56:32,658 [INFO] ApiDb:432 - Save user favorites file C:\Users\Bheem/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-10-04 20:56:32,662 [INFO] ApiDb:436 - User favorites MCUs=[]
+2022-10-04 20:57:00,205 [INFO] I2cTimingTraitement:325 - 0x0000020B
+2022-10-04 20:57:12,096 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 579467648 Bytes (898629632)
+2022-10-04 20:57:13,756 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-10-04 20:57:13,762 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2022-10-04 20:57:13,762 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM6_7F0
+2022-10-04 20:57:13,762 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-10-04 20:57:13,762 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-10-04 20:57:13,762 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-10-04 20:57:13,762 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: I2C
+2022-10-04 20:57:13,762 [INFO] CodeGenerator:681 - code generatio: config db path: C:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.5.0.202202251913\\db\
+2022-10-04 20:57:14,875 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\MXTmpFiles\license.tmp_save
+2022-10-04 20:57:15,546 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\MXTmpFiles\license.tmp
+2022-10-04 20:57:16,185 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\MXTmpFiles\gpio.tmp_save
+2022-10-04 20:57:16,702 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\MXTmpFiles\gpio.tmp
+2022-10-04 20:57:19,145 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\Core\Src\stm32f0xx_it.c_save
+2022-10-04 20:57:19,589 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\Core\Src\stm32f0xx_it.c
+2022-10-04 20:57:19,637 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\Core\Inc\stm32f0xx_it.h_save
+2022-10-04 20:57:20,252 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\Core\Inc\stm32f0xx_it.h
+2022-10-04 20:57:20,303 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\Core\Src\stm32f0xx_hal_msp.c_save
+2022-10-04 20:57:20,774 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\Core\Src\stm32f0xx_hal_msp.c
+2022-10-04 20:57:20,801 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\MXTmpFiles\system.tmp_save
+2022-10-04 20:57:21,024 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\MXTmpFiles\system.tmp
+2022-10-04 20:57:21,055 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\Core\Inc\stm32f0xx_hal_conf.h_save
+2022-10-04 20:57:21,436 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\Core\Inc\stm32f0xx_hal_conf.h
+2022-10-04 20:57:21,521 [WARN] IPConfigManager:3312 - IP not found : TIM
+2022-10-04 20:57:21,524 [WARN] CodeGenerator:3483 - IP not found : null
+2022-10-04 20:57:21,574 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\Core\Inc\main.h_save
+2022-10-04 20:57:21,934 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\Core\Inc\main.h
+2022-10-04 20:57:21,967 [INFO] CodeEngine:237 - oldGeneratedFile, D:\production\final_ot_ges\ot_gesture_updated\Core\Src\main.c_save
+2022-10-04 20:57:22,396 [INFO] CodeEngine:261 - Generated code: D:\production\final_ot_ges\ot_gesture_updated\Core\Src\main.c
+2022-10-04 20:57:28,180 [INFO] ProjectBuilder:2913 - Time for Copy HAL[1] : 1792mS.
+2022-10-04 20:57:28,201 [INFO] ProjectBuilder:4015 - Project Generator version: 3.16.0
+2022-10-04 20:57:29,867 [INFO] ConfigFileManager:1287 - The Die is : DIE440
+2022-10-04 20:57:38,238 [INFO] ProjectBuilder:4183 - Time for Generating toolchain IDE Files: 10037mS.
+2022-10-04 20:57:38,251 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 2mS.
+2022-10-04 20:57:38,256 [INFO] ProjectBuilder:2785 - Time for Copy CMSIS : 0mS.
+2022-10-07 00:42:31,746 [INFO] Activator:177 - 
+
+
+2022-10-07 00:42:31,757 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-07 00:42:49,676 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-10-07 01:32:14,857 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:32:14,859 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:32:14,860 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:32:36,901 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:32:36,902 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:32:36,904 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:43:58,661 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:43:58,662 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:43:58,663 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:43:58,742 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:43:58,742 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:43:58,743 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:46:37,329 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:46:37,330 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:46:37,333 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:46:37,415 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:46:37,416 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:46:37,417 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:48:30,226 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:48:30,228 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:48:30,229 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:48:30,316 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:48:30,317 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:48:30,318 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:53:22,508 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:53:22,509 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:53:22,510 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:53:22,607 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:53:22,608 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:53:22,609 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:55:59,351 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:55:59,352 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:55:59,353 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:55:59,422 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:55:59,423 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 01:55:59,423 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 02:40:46,142 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 02:40:46,151 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 02:40:46,152 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 02:45:05,460 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 02:45:05,461 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 02:45:05,462 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 03:05:39,409 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 03:05:39,409 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 03:05:39,410 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 03:05:39,492 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 03:05:39,492 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-07 03:05:39,493 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 06:01:25,363 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 06:01:25,363 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 06:01:25,363 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 06:07:17,527 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 06:07:17,527 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 06:07:17,528 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:22:25,461 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:22:25,463 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:22:25,465 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:22:25,553 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:22:25,554 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:22:25,555 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:38:20,174 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:38:20,175 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:38:20,175 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:38:21,022 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:38:21,023 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:38:21,023 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:40:23,488 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:40:23,491 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:40:23,493 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:40:23,586 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:40:23,587 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:40:23,588 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:43:22,405 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:43:22,406 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:43:22,408 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:43:22,492 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:43:22,493 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:43:22,494 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:47:19,282 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:47:19,284 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:47:19,287 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:47:19,379 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:47:19,380 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 13:47:19,381 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-08 19:13:03,241 [INFO] Activator:177 - 
+
+
+2022-10-08 19:13:03,241 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-08 19:13:17,045 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-10-09 09:57:37,896 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 09:57:37,897 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 09:57:37,898 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 09:57:37,965 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 09:57:37,967 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 09:57:37,967 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:02:11,596 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:02:11,596 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:02:11,597 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:02:11,663 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:02:11,664 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:02:11,665 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:05:47,229 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:05:47,230 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:05:47,230 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:05:47,286 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:05:47,287 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:05:47,289 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:07:42,359 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:07:42,360 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:07:42,360 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:07:42,429 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:07:42,430 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:07:42,430 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:10:11,827 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:10:11,828 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:10:11,830 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:10:11,900 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:10:11,900 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 10:10:11,901 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:03:50,946 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:03:50,946 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:03:50,946 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:03:51,024 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:03:51,024 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:03:51,024 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:06:55,848 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:06:55,848 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:06:55,848 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:06:55,941 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:06:55,941 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:06:55,941 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:11:24,987 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:11:24,987 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:11:24,987 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:11:25,033 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:11:25,033 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:11:25,033 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:14:09,246 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:14:09,246 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:14:09,246 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:14:09,339 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:14:09,339 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:14:09,339 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:15:32,847 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:15:32,847 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:15:32,847 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:15:32,909 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:15:32,909 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:15:32,909 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:20:30,595 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:20:30,595 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:20:30,595 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:20:30,657 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:20:30,657 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:20:30,657 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:22:56,810 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:22:56,810 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:22:56,810 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:22:56,872 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:22:56,872 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:22:56,872 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:24:54,088 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:24:54,088 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:24:54,088 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:24:54,151 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:24:54,151 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:24:54,151 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:26:33,969 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:26:33,969 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:26:33,969 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:26:34,062 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:26:34,062 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:26:34,062 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 17:32:05,730 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.SocketTimeoutException: Read timed out
+2022-10-09 17:32:11,295 [ERROR] AdobePublisher:183 - Exception while getting the server answer: java.net.SocketTimeoutException: Read timed out
+2022-10-09 18:49:07,182 [ERROR] ConfigurationRetriever:139 - IOException on connection: Read timed out
+2022-10-09 18:49:10,059 [ERROR] ConfigurationRetriever:139 - IOException on connection: Read timed out
+2022-10-09 18:49:19,465 [ERROR] AdobePublisher:183 - Exception while getting the server answer: java.net.SocketTimeoutException: Read timed out
+2022-10-09 18:56:42,924 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2022-10-09 18:56:45,056 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2022-10-09 18:56:47,071 [ERROR] ConfigurationRetriever:139 - IOException on connection: connect timed out
+2022-10-09 19:01:58,819 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:01:58,821 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:01:58,824 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:01:58,978 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:01:58,978 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:01:58,980 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:02:23,026 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:02:23,028 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:02:23,030 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:02:23,182 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:02:23,183 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:02:23,183 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:05:11,983 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:05:11,985 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:05:11,989 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:05:12,068 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:05:12,069 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:05:12,069 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:06:54,751 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:06:54,752 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:06:54,753 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:06:54,903 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:06:54,903 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:06:54,903 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:14:51,648 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:14:51,650 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:14:51,651 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:14:51,744 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:14:51,745 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:14:51,745 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:16:29,201 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:16:29,203 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:16:29,205 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:16:29,366 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:16:29,366 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:16:29,368 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:18:06,379 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:18:06,379 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:18:06,379 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:18:06,457 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:18:06,457 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:18:06,457 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:21:14,592 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:21:14,592 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:21:14,592 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:21:14,654 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:21:14,654 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:21:14,654 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:24:05,936 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:24:05,936 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:24:05,936 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:24:06,029 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:24:06,029 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:24:06,029 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:28:17,797 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:28:17,797 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:28:17,797 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:28:17,843 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:28:17,843 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:28:17,843 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:31:17,332 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:31:17,332 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:31:17,332 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:31:17,394 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:31:17,410 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:31:17,410 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:33:25,727 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:33:25,727 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:33:25,734 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:33:25,801 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:33:25,801 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:33:25,801 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:35:14,877 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:35:14,877 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:35:14,877 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:35:14,923 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:35:14,923 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:35:14,923 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:37:36,566 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:37:36,566 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:37:36,566 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:37:36,644 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:37:36,644 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:37:36,644 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:39:13,531 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:39:13,531 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:39:13,531 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:39:13,594 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:39:13,594 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:39:13,594 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:40:29,241 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:40:29,241 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:40:29,241 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:40:29,304 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:40:29,304 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:40:29,304 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:42:15,866 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:42:15,869 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:42:15,871 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:42:15,925 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:42:15,940 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:42:15,940 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:43:49,812 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:43:49,812 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:43:49,812 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:43:49,890 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:43:49,890 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:43:49,890 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:45:00,245 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:45:00,245 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:45:00,245 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:45:00,308 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:45:00,308 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:45:00,308 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:47:33,231 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:47:33,231 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:47:33,231 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:47:33,309 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:47:33,309 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:47:33,309 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:49:12,040 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:49:12,042 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:49:12,044 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:49:12,094 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:49:12,094 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:49:12,094 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:50:40,668 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:50:40,668 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:50:40,668 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:50:40,730 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:50:40,730 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:50:40,730 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:53:35,898 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:53:35,898 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:53:35,898 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:53:35,976 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:53:35,976 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 19:53:35,976 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:07:39,436 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:07:39,436 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:07:39,436 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:07:39,483 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:07:39,483 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:07:39,483 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:09:26,316 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:09:26,316 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:09:26,316 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:09:26,378 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:09:26,378 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:09:26,378 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:19:33,649 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:19:33,649 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:19:33,649 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:19:33,747 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:19:33,748 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:19:33,749 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:21:37,303 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:21:37,303 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:21:37,303 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:21:37,381 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:21:37,381 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:21:37,381 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:32:58,976 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:32:58,976 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:32:58,976 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:32:59,054 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:32:59,054 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:32:59,054 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:44:18,890 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:44:18,890 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:44:18,890 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:44:27,594 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:44:27,594 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-09 20:44:27,594 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:15:46,437 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:15:46,437 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:15:46,437 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:15:46,499 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:15:46,499 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:15:46,499 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:17:05,690 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:17:05,690 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:17:05,690 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:17:06,034 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:17:06,034 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:17:06,049 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:18:38,405 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:18:38,405 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:18:38,405 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:18:38,498 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:18:38,498 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:18:38,498 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:20:20,080 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:20:20,080 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:20:20,080 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:20:20,298 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:20:20,298 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:20:20,298 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:22:22,806 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:22:22,806 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:22:22,806 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:22:22,868 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:22:22,868 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:22:22,868 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:33:11,017 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:33:11,017 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:33:11,017 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:33:11,095 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:33:11,095 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:33:11,095 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:51:47,026 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:51:47,026 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:51:47,026 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:51:47,089 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:51:47,089 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:51:47,089 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:55:14,109 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:55:14,109 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:55:14,109 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:55:14,140 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:55:14,140 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:55:14,140 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:55:15,629 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:55:15,629 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:55:15,629 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:58:00,464 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:58:00,464 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:58:00,464 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:58:00,511 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:58:00,511 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:58:00,511 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:58:52,688 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:58:52,688 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:58:52,688 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:58:52,765 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:58:52,765 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 00:58:52,765 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:00:31,694 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:00:31,694 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:00:31,694 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:00:31,755 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:00:31,755 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:00:31,755 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:03:45,004 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:03:45,004 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:03:45,004 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:03:45,050 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:03:45,050 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:03:45,050 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:05:48,884 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:05:48,884 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:05:48,884 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:05:48,916 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:05:48,916 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:05:48,916 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:08:17,605 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:08:17,605 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:08:17,605 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:08:17,668 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:08:17,668 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-10-10 01:08:17,668 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com

@@ -46,7 +46,12 @@ _color,
 _sensor,
 _lamp,
 _endo,
-_depth
+_depth,
+_focus,
+_small,
+_medium,
+_wide
+
 };
 
 extern  struct lcd_variable

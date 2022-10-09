@@ -226,6 +226,37 @@ void clr_data(uint8_t pos)
 		lcd_puts(3, 18, (int8_t *)" ");
 		lcd_puts(3, 19, (int8_t *)" ");
 		break;
+
+	case _focus:
+		lcd_puts(0, 10, (int8_t *)" ");
+		lcd_puts(0, 11, (int8_t *)" ");
+		lcd_puts(0, 12, (int8_t *)" ");
+		lcd_puts(0, 13, (int8_t *)" ");
+		lcd_puts(0, 14, (int8_t *)" ");
+		lcd_puts(0, 15, (int8_t *)" ");
+		break;
+
+
+	case _small:
+		lcd_puts(1, 10, (int8_t *)" ");
+		lcd_puts(1, 10, (int8_t *)" ");
+		lcd_puts(1, 10, (int8_t *)" ");
+		break;
+
+
+
+	case _medium:
+		lcd_puts(2, 10, (int8_t *)" ");
+		lcd_puts(2, 10, (int8_t *)" ");
+		lcd_puts(2, 10, (int8_t *)" ");
+		break;
+
+
+	case _wide:
+		lcd_puts(3, 10, (int8_t *)" ");
+		lcd_puts(3, 10, (int8_t *)" ");
+		lcd_puts(3, 10, (int8_t *)" ");
+		break;
 	}
 }
 void clr_select()

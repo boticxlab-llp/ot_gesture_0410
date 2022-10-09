@@ -30,6 +30,19 @@ uint32_t timer_intrupt = 0;
 uint8_t depth_press =0;
 #define on 1
 #define off 0
+
+
+void page_3_print(void);
+void page_2_print(void);
+void send_cmd(int8_t x, int8_t mode);
+
+uint8_t last_pg, current_pg;
+uint8_t pg2 = 0;
+uint8_t pg2_fc = 0;
+
+uint8_t pg3_sm,pg3_md,pg3_wd =0;
+
+
 enum pos
 {
 	intensity = 1,
@@ -78,7 +91,7 @@ struct interrupt_flag_reg
 
 struct pos_status_reg
 {
-	uint16_t position_cursor : 3;
+	int8_t position_cursor;
 	uint16_t key_number : 3;
 	uint16_t gesture_direction : 2;
 	uint16_t screen_number : 3;
@@ -205,61 +218,123 @@ uint8_t update_key_press()
 // }
 void set_data_positive()
 {
-	switch (current_pos.position_cursor)
+	if(pg2_fc == 0)
 	{
-	case intensity:
-		data_reg.intensity++;
-		if (data_reg.intensity >= 10)
-			data_reg.intensity = 10;
-		break;
-	case color:
-		data_reg.color++;
-		if (data_reg.color > 5)
-			data_reg.color = 5;
-		break;
-	case sensor:
-		data_reg.sensor = on;
-		break;
-	case lamp:
-		data_reg.lamp = on;
-		break;
-	case endo:
-		data_reg.endo = on;
-		break;
-	case depth:
-		data_reg.depth = on;
-		break;
+		switch (current_pos.position_cursor)
+		{
+		case intensity:
+			data_reg.intensity++;
+			if (data_reg.intensity >= 10)
+				data_reg.intensity = 10;
+			break;
+		case color:
+			data_reg.color++;
+			if (data_reg.color > 5)
+				data_reg.color = 5;
+			break;
+		case sensor:
+			data_reg.sensor = on;
+			break;
+		case lamp:
+			data_reg.lamp = on;
+			break;
+		case endo:
+			data_reg.endo = on;
+			break;
+		case depth:
+			data_reg.depth = on;
+			break;
+		case 7:
+			pg2_fc = on;
+			break;
+		}
+	}
+
+	else
+	{
+		switch (current_pos.position_cursor)
+		{
+		case 7:
+			pg2_fc = on;
+			break;
+		case 1:
+			pg3_sm = on;
+			pg3_md = off;
+			pg3_wd = off;
+			break;
+		case 2:
+			pg3_sm = off;
+			pg3_md = on;
+			pg3_wd = off;
+			break;
+		case 3:
+			pg3_sm = off;
+			pg3_md = off;
+			pg3_wd = on;
+			break;
+
+		}
+
 	}
 }
 
 void set_data_negative()
 {
-	switch (current_pos.position_cursor)
+	if(pg2_fc == 0)
 	{
-	case intensity:
-		data_reg.intensity--;
-		if (data_reg.intensity <= 1)
-			data_reg.intensity = 1;
-		break;
-	case color:
-		data_reg.color--;
-		if (data_reg.color < -5)
-			data_reg.color = -5;
-		break;
-	case sensor:
-		data_reg.sensor = off;
-		break;
-	case lamp:
-		data_reg.lamp = off;
-		break;
-	case endo:
-		data_reg.endo = off;
-		break;
-	case depth:
-		data_reg.depth = off;
-		break;
+
+		switch (current_pos.position_cursor)
+		{
+		case intensity:
+			data_reg.intensity--;
+			if (data_reg.intensity <= 1)
+				data_reg.intensity = 1;
+			break;
+		case color:
+			data_reg.color--;
+			if (data_reg.color < -5)
+				data_reg.color = -5;
+			break;
+		case sensor:
+			data_reg.sensor = off;
+			break;
+		case lamp:
+			data_reg.lamp = off;
+			break;
+		case endo:
+			data_reg.endo = off;
+			break;
+		case depth:
+			data_reg.depth = off;
+			break;
+		case 7:
+			pg2_fc = off;
+			break;
+		}
+	}
+
+	else
+	{
+		switch (current_pos.position_cursor)
+		{
+		case 7:
+			pg2_fc = off;
+			break;
+		case 1:
+			pg3_sm = off;
+			break;
+		case 2:
+			pg3_md = off;
+			break;
+		case 3:
+			pg3_wd = off;
+			break;
+
+		}
+
 	}
 }
+
 
 void update_new_data()
 {
@@ -267,13 +342,31 @@ void update_new_data()
 	{
 	case _prv:
 		current_pos.position_cursor--;
-		if (current_pos.position_cursor < 1)
-			current_pos.position_cursor = 6;
+//		if (current_pos.position_cursor == 0)
+//		{
+//			lcd_clear();
+//			page_2_print();
+//		}
+
+		if (current_pos.position_cursor <= 0)
+		{
+//			lcd_clear();
+			current_pos.position_cursor = 7;
+
+		}
 		break;
 	case _nxt:
 		current_pos.position_cursor++;
-		if (current_pos.position_cursor > 6)
-			current_pos.position_cursor = 1;
+//		if (current_pos.position_cursor == 7)
+//		{
+//			page_2_print();
+//		}
+
+		if (current_pos.position_cursor > 7)
+		{
+
+				current_pos.position_cursor = 1;
+		}
 		break;
 	case _depth:
 //		data_reg.depth = !data_reg.depth;
@@ -302,54 +395,172 @@ void update_new_data()
 	}
 }
 
-void second_screen()
+void page_2_print()
 {
-		char buffer[3];
-//		lcd_puts(0, 0, (int8_t *)"______ COGNATE _____");
-		lcd_puts(1, 1, (int8_t *)"FOCUS");
-		lcd_puts(2, 1, (int8_t *)"SMALL");
-		lcd_puts(3, 1, (int8_t *)"Medium");
-		lcd_puts(1, 11, (int8_t *)"Wide");
+	lcd_puts(0, 0, (int8_t *)">");
+	lcd_puts(0, 1, (int8_t *)"FOCUS  :");
 
+}
 
-		lcd_puts(1, 8, (int8_t *)":");
-		lcd_puts(2, 8, (int8_t *)":");
-		lcd_puts(3, 8, (int8_t *)":");
-		lcd_puts(4, 8, (int8_t *)":");
-
-
-	//	lcd_puts(1, 0, (int8_t *)">");
+void page_3_print()
+{
+	char buf[3];
+	lcd_puts(0, 0, (int8_t *)">");
+	lcd_puts(0, 1, (int8_t *)"FOCUS  :");
+	lcd_puts(1, 1, (int8_t *)"SMALL  : ");
+	lcd_puts(2, 1, (int8_t *)"Medium : ");
+	lcd_puts(3, 1, (int8_t *)"Wide   : ");
 
 
 
-		clr_data(sensor);
-		if (data_reg.sensor)
-			lcd_puts(3, 7, (int8_t *)"ON");
-		else
-			lcd_puts(3, 7, (int8_t *)"OFF");
+	clr_data(8);
+	if (pg3_sm)
+		lcd_puts(1, 10, (int8_t *)"ON");
+	else
+		lcd_puts(1, 10, (int8_t *)"OFF");
 
-		clr_data(lamp);
-		if (data_reg.lamp)
-			lcd_puts(1, 17, (int8_t *)"ON");
-		else
-			lcd_puts(1, 17, (int8_t *)"OFF");
+	clr_data(9);
+	if (pg3_md)
+		lcd_puts(2, 10, (int8_t *)"ON");
+	else
+		lcd_puts(2, 10, (int8_t *)"OFF");
 
-		clr_data(endo);
-		if (data_reg.endo)
-			lcd_puts(2, 17, (int8_t *)"ON");
-		else
-			lcd_puts(2, 17, (int8_t *)"OFF");
-
-		clr_data(depth);
-		if (data_reg.depth)
-			lcd_puts(3, 17, (int8_t *)"ON");
-		else
-			lcd_puts(3, 17, (int8_t *)"OFF");
-
-		lcd_puts(1, 0, (int8_t *)">");
+	clr_data(10);
+	if (pg3_wd)
+		lcd_puts(3, 10, (int8_t *)"ON");
+	else
+		lcd_puts(3, 10, (int8_t *)"OFF");
 
 
 }
+
+void update_screen_data_2()
+{
+	lcd_puts(0, 0, (int8_t *)">");
+	lcd_puts(0, 10, (int8_t *)"Disable");
+}
+
+void update_screen_data_3()
+{
+
+
+
+	switch(current_pos.position_cursor)
+	{
+
+	case 7:
+		lcd_puts(0, 0, (int8_t *)">");
+		lcd_puts(1, 0, (int8_t *)" ");
+		lcd_puts(2, 0, (int8_t *)" ");
+		lcd_puts(3, 0, (int8_t *)" ");
+		if(pg2_fc)
+		{
+			lcd_puts(0, 15, (int8_t *)"  ");
+			lcd_puts(0, 10, (int8_t *)"Enable");
+		}
+		else
+			lcd_puts(0, 10, (int8_t *)"Disable");
+		break;
+
+
+	case 1:
+		lcd_puts(0, 0, (int8_t *)" ");
+		lcd_puts(1, 0, (int8_t *)">");
+		lcd_puts(2, 0, (int8_t *)" ");
+		lcd_puts(3, 0, (int8_t *)" ");
+		if(pg3_sm)
+		{
+			lcd_puts(1, 12, (int8_t *)"  ");
+			lcd_puts(1, 10, (int8_t *)"ON");
+		}
+		else
+		{
+			lcd_puts(1, 10, (int8_t *)"OFF");
+		}
+		send_cmd(pg3_sm,8);
+		break;
+	case 2:
+		lcd_puts(0, 0, (int8_t *)" ");
+		lcd_puts(1, 0, (int8_t *)" ");
+		lcd_puts(2, 0, (int8_t *)">");
+		lcd_puts(3, 0, (int8_t *)" ");
+		if(pg3_md)
+		{
+			lcd_puts(2, 12, (int8_t *)" ");
+			lcd_puts(2, 10, (int8_t *)"ON");
+		}
+		else
+		{
+			lcd_puts(2, 10, (int8_t *)"OFF");
+		}
+		send_cmd(pg3_md,8);
+		break;
+	case 3:
+		lcd_puts(0, 0, (int8_t *)" ");
+		lcd_puts(1, 0, (int8_t *)" ");
+		lcd_puts(2, 0, (int8_t *)" ");
+		lcd_puts(3, 0, (int8_t *)">");
+		if(pg3_wd)
+		{
+			lcd_puts(3, 12, (int8_t *)" ");
+			lcd_puts(3, 10, (int8_t *)"ON");
+		}
+		else
+		{
+			lcd_puts(3, 10, (int8_t *)"OFF");
+		}
+		send_cmd(pg3_wd,10);
+		break;
+
+	}
+//
+//	if(current_pos.position_cursor == 1)
+//	{
+//		lcd_puts(1, 0, (int8_t *)">");
+//		if(pg3_sm)
+//		{
+//			lcd_puts(1, 12, (int8_t *)" ");
+//			lcd_puts(1, 10, (int8_t *)"ON");
+//		}
+//		else
+//		{
+//			lcd_puts(1, 10, (int8_t *)"OFF");
+//		}
+//		break;
+//	}
+//	else if (current_pos.position_cursor == 2)
+//	{
+//		lcd_puts(2, 0, (int8_t *)">");
+//		if(pg3_md)
+//		{
+//			lcd_puts(2, 12, (int8_t *)" ");
+//			lcd_puts(2, 10, (int8_t *)"ON");
+//		}
+//		else
+//		{
+//			lcd_puts(2, 10, (int8_t *)"OFF");
+//		}
+//	}
+//	else if (current_pos.position_cursor == 3)
+//	{
+//		lcd_puts(3, 0, (int8_t *)">");
+//		if(pg3_sm)
+//		{
+//			lcd_puts(3, 12, (int8_t *)" ");
+//			lcd_puts(3, 10, (int8_t *)"ON");
+//		}
+//		else
+//		{
+//			lcd_puts(3, 10, (int8_t *)"OFF");
+//		}
+//	}
+
+}
+
+
+
+
+
 
 void update_screen_data()
 {
@@ -479,6 +690,53 @@ void send_cmd(int8_t x, int8_t mode)
 		data[1] = 'D';
 		data[2] = '_';
 		data[3] = 48 + x;
+		HAL_UART_Transmit(&huart1, &data[0], 5, 100);
+		break;
+	case 8:
+
+		if(x == 1)
+		{
+			data[1] = 'F';
+			data[2] = '_';
+			data[3] = 48 + 1;
+		}
+		else if(x == 0)
+		{
+			data[1] = 'R';
+			data[2] = 'E';
+			data[3] = 'S';
+		}
+
+		HAL_UART_Transmit(&huart1, &data[0], 5, 100);
+		break;
+	case 9:
+		if(x == 1)
+		{
+			data[1] = 'F';
+			data[2] = '_';
+			data[3] = 48 + 2;
+		}
+		else if(x == 0)
+		{
+			data[1] = 'R';
+			data[2] = 'E';
+			data[3] = 'S';
+		}
+		HAL_UART_Transmit(&huart1, &data[0], 5, 100);
+		break;
+	case 10:
+		if(x == 1)
+		{
+			data[1] = 'F';
+			data[2] = '_';
+			data[3] = 48 + 3;
+		}
+		else if(x == 0)
+		{
+			data[1] = 'R';
+			data[2] = 'E';
+			data[3] = 'S';
+		}
 		HAL_UART_Transmit(&huart1, &data[0], 5, 100);
 		break;
 	}
@@ -790,8 +1048,102 @@ int main(void)
 
 		if (interrupt_reg.update_data)
 		{
+//			char buffers[3];
 			update_new_data();
-			update_screen_data();
+
+			if(current_pos.position_cursor == 7 )
+				{
+
+//					if(last_pg != 2)
+//					{
+//						lcd_clear();
+//						page_2_print();
+//					}
+//					update_screen_data_2();
+
+
+					if(pg2_fc == 0)
+					{
+//						lcd_clear();
+						if(last_pg != 2)
+						{
+						lcd_clear();
+						page_2_print();
+						}
+
+						last_pg = 2;
+						update_screen_data_2();
+					}
+					else if (pg2_fc == 1)
+					{
+//						lcd_clear();
+						if(last_pg != 3)
+						{
+							lcd_clear();
+							page_3_print();
+							last_pg = 3;
+						}
+//						lcd_clear();
+//						page_3_print();
+
+
+						update_screen_data_3();
+					}
+
+//					sprintf(buffers, "%02d", current_pos.position_cursor);
+//					lcd_puts(3, 16, (int8_t *)buffers);
+
+
+				}
+			else if((current_pos.position_cursor >= 1 )|| (current_pos.position_cursor <= 6))
+			{
+				if(pg2_fc == 0)
+				{
+
+					if(last_pg != 1)
+					{
+						lcd_clear();
+						page1_print();
+					}
+
+					last_pg = 1;
+					update_screen_data();
+
+//					if(current_pos.position_cursor >= 1)
+//					{
+//	//					current_pos.position_cursor = 1;
+//						lcd_clear();
+//						page1_print();
+//					}
+
+//					sprintf(buffers, "%02d", current_pos.position_cursor);
+	//				lcd_puts(2, 16, (int8_t *)buffers);
+				}
+
+				else if (pg2_fc == 1)
+				{
+					if(current_pos.position_cursor >3)
+					{
+						current_pos.position_cursor = 7;
+					}
+
+
+
+					if(last_pg != 3)
+					{
+						lcd_clear();
+						page_3_print();
+					}
+
+					last_pg = 3;
+					update_screen_data_3();
+//					sprintf(buffers, "%02d", current_pos.position_cursor);
+//					lcd_puts(3, 16, (int8_t *)buffers);
+				}
+
+			}
+
+
 			interrupt_reg.update_data = 0;
 		}
 
