@@ -43,8 +43,6 @@ uint8_t pg2_fc = 0;
 uint8_t pg3_sm,pg3_md,pg3_wd =0;
 
 
-uint32_t tt_cnt = 0;
-
 enum pos
 {
 	intensity = 1,
@@ -157,21 +155,6 @@ void home_page(void);
 void lcd_clear(void);
 void lcd_init(void);
 void lcd_puts(uint8_t x, uint8_t y, int8_t *string);
-
-
-
-
-// Callback: timer has rolled over
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
-  // Check which version of the timer triggered this callback and toggle LED
-  if (htim == &htim6 )
-  {
-//    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-	  tt_cnt++;
-  }
-}
-
 
 void print_int(int _data)
 {
@@ -921,7 +904,7 @@ int main(void)
   MX_I2C1_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-HAL_TIM_Base_Start_IT(&htim6);
+	HAL_TIM_Base_Start_IT(&htim6);
 	//	lcd_init();
 
 	//	HAL_Delay(1000);
@@ -963,9 +946,8 @@ HAL_TIM_Base_Start_IT(&htim6);
 			if (HAL_GPIO_ReadPin(S_PRV_GPIO_Port, S_PRV_Pin) == 0)
 			{
 				temp_time = HAL_GetTick();
-				temp_time = tt_cnt;
 				//				HAL_Delay(1000);
-				while ((tt_cnt - temp_time) >= 5)				//while ((HAL_GetTick() - temp_time) >= 5000)  // error tt_cnt
+				while ((HAL_GetTick() - temp_time) >= 2000)  // error
 				{
 					if (HAL_GPIO_ReadPin(S_PRV_GPIO_Port, S_PRV_Pin))
 					{
@@ -1183,7 +1165,7 @@ HAL_TIM_Base_Start_IT(&htim6);
 		if (page_change_flag)
 		{
 			clock_page();
-			Total_Time_Print(tt_cnt);  // tt_cnt timer_intrupt
+			Total_Time_Print(timer_intrupt);
 			HAL_Delay(2000);
 			lcd_clear();
 			page1_print();

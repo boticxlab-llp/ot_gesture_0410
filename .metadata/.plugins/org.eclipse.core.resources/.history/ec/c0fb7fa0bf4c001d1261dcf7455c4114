@@ -963,9 +963,8 @@ HAL_TIM_Base_Start_IT(&htim6);
 			if (HAL_GPIO_ReadPin(S_PRV_GPIO_Port, S_PRV_Pin) == 0)
 			{
 				temp_time = HAL_GetTick();
-				temp_time = tt_cnt;
 				//				HAL_Delay(1000);
-				while ((tt_cnt - temp_time) >= 5)				//while ((HAL_GetTick() - temp_time) >= 5000)  // error tt_cnt
+				while ((HAL_GetTick() - temp_time) >= 2000)  // error
 				{
 					if (HAL_GPIO_ReadPin(S_PRV_GPIO_Port, S_PRV_Pin))
 					{
@@ -982,7 +981,7 @@ HAL_TIM_Base_Start_IT(&htim6);
 			{
 				temp_time = HAL_GetTick();
 				//				HAL_Delay(1000);
-				while ((HAL_GetTick() - temp_time) <= 2000)
+				while ((HAL_GetTick() - temp_time) <= 5000)
 				{
 					if (HAL_GPIO_ReadPin(DEPTH_GPIO_Port, DEPTH_Pin))
 					{
