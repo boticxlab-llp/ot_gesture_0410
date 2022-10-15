@@ -472,9 +472,9 @@ void update_screen_data_3()
 
 		if(pg3_sm)
 		{
-			lcd_puts(1, 10, (int8_t *)"   ");
-			lcd_puts(2, 10, (int8_t *)"OFF");
-			lcd_puts(3, 10, (int8_t *)"OFF");
+			lcd_puts(1, 12, (int8_t *)"  ");
+//			lcd_puts(2, 10, (int8_t *)"OFF");
+//			lcd_puts(3, 10, (int8_t *)"OFF");
 			lcd_puts(1, 10, (int8_t *)"ON");
 		}
 		else
@@ -492,10 +492,10 @@ void update_screen_data_3()
 		lcd_puts(3, 0, (int8_t *)" ");
 		if(pg3_md)
 		{
-			lcd_puts(2, 10, (int8_t *)"   ");
-			lcd_puts(1, 10, (int8_t *)"OFF");
+			lcd_puts(2, 12, (int8_t *)" ");
+//			lcd_puts(1, 10, (int8_t *)"OFF");
 			lcd_puts(2, 10, (int8_t *)"ON");
-			lcd_puts(3, 10, (int8_t *)"OFF");
+//			lcd_puts(3, 10, (int8_t *)"OFF");
 		}
 		else
 		{
@@ -513,9 +513,9 @@ void update_screen_data_3()
 		if(pg3_wd)
 		{
 
-			lcd_puts(3, 10, (int8_t *)"   ");
-			lcd_puts(1, 10, (int8_t *)"OFF");
-			lcd_puts(2, 10, (int8_t *)"OFF");
+			lcd_puts(3, 12, (int8_t *)" ");
+//			lcd_puts(1, 10, (int8_t *)"OFF");
+//			lcd_puts(2, 10, (int8_t *)"OFF");
 			lcd_puts(3, 10, (int8_t *)"ON");
 		}
 		else

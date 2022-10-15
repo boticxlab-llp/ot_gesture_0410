@@ -468,21 +468,15 @@ void update_screen_data_3()
 		lcd_puts(1, 0, (int8_t *)">");
 		lcd_puts(2, 0, (int8_t *)" ");
 		lcd_puts(3, 0, (int8_t *)" ");
-
-
 		if(pg3_sm)
 		{
-			lcd_puts(1, 10, (int8_t *)"   ");
-			lcd_puts(2, 10, (int8_t *)"OFF");
-			lcd_puts(3, 10, (int8_t *)"OFF");
+			lcd_puts(1, 12, (int8_t *)"  ");
 			lcd_puts(1, 10, (int8_t *)"ON");
 		}
 		else
 		{
 			lcd_puts(1, 10, (int8_t *)"OFF");
 		}
-		send_cmd(0,9);
-		send_cmd(0,10);
 		send_cmd(pg3_sm,8);
 		break;
 	case 2:
@@ -492,18 +486,14 @@ void update_screen_data_3()
 		lcd_puts(3, 0, (int8_t *)" ");
 		if(pg3_md)
 		{
-			lcd_puts(2, 10, (int8_t *)"   ");
-			lcd_puts(1, 10, (int8_t *)"OFF");
+			lcd_puts(2, 12, (int8_t *)" ");
 			lcd_puts(2, 10, (int8_t *)"ON");
-			lcd_puts(3, 10, (int8_t *)"OFF");
 		}
 		else
 		{
 			lcd_puts(2, 10, (int8_t *)"OFF");
 		}
-		send_cmd(0,10);
-		send_cmd(0,8);
-		send_cmd(pg3_md,9);
+		send_cmd(pg3_md,8);
 		break;
 	case 3:
 		lcd_puts(0, 0, (int8_t *)" ");
@@ -512,18 +502,13 @@ void update_screen_data_3()
 		lcd_puts(3, 0, (int8_t *)">");
 		if(pg3_wd)
 		{
-
-			lcd_puts(3, 10, (int8_t *)"   ");
-			lcd_puts(1, 10, (int8_t *)"OFF");
-			lcd_puts(2, 10, (int8_t *)"OFF");
+			lcd_puts(3, 12, (int8_t *)" ");
 			lcd_puts(3, 10, (int8_t *)"ON");
 		}
 		else
 		{
 			lcd_puts(3, 10, (int8_t *)"OFF");
 		}
-		send_cmd(0,8);
-		send_cmd(0,9);
 		send_cmd(pg3_wd,10);
 		break;
 
@@ -636,7 +621,7 @@ void update_screen_data()
 		clr_data(endo);
 		clr_select();
 		lcd_puts(2, 10, (int8_t *)">");
-		send_cmd(data_reg.endo,endo);
+		send_cmd(data_reg.lamp,lamp);
 		if (data_reg.endo)
 			lcd_puts(2, 17, (int8_t *)"ON");
 		else

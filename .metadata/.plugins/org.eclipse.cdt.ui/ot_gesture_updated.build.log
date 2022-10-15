@@ -1,4 +1,4 @@
-01:08:04 **** Incremental Build of configuration Debug for project ot_gesture_updated ****
+00:04:43 **** Incremental Build of configuration Debug for project ot_gesture_updated ****
 make -j4 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F030x8 -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'print_int':
@@ -16,14 +16,14 @@ c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externalt
   407 |  char buf[3];
       |       ^~~
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:1152:4: warning: implicit declaration of function 'clock_page' [-Wimplicit-function-declaration]
- 1152 |    clock_page();
+../Core/Src/main.c:1167:4: warning: implicit declaration of function 'clock_page' [-Wimplicit-function-declaration]
+ 1167 |    clock_page();
       |    ^~~~~~~~~~
-../Core/Src/main.c:1153:4: warning: implicit declaration of function 'Total_Time_Print' [-Wimplicit-function-declaration]
- 1153 |    Total_Time_Print(timer_intrupt);
+../Core/Src/main.c:1168:4: warning: implicit declaration of function 'Total_Time_Print' [-Wimplicit-function-declaration]
+ 1168 |    Total_Time_Print(timer_intrupt);
       |    ^~~~~~~~~~~~~~~~
-../Core/Src/main.c:911:10: warning: variable 'sns_status' set but not used [-Wunused-but-set-variable]
-  911 |  uint8_t sns_status = 0;
+../Core/Src/main.c:926:10: warning: variable 'sns_status' set but not used [-Wunused-but-set-variable]
+  926 |  uint8_t sns_status = 0;
       |          ^~~~~~~~~~
 arm-none-eabi-gcc -o "ot_gesture_updated.elf" @"objects.list"   -mcpu=cortex-m0 -T"D:\production\final_ot_ges\ot_gesture_updated\STM32F030C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ot_gesture_updated.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: ot_gesture_updated.elf
@@ -31,11 +31,11 @@ Finished building target: ot_gesture_updated.elf
 arm-none-eabi-size   ot_gesture_updated.elf 
 arm-none-eabi-objdump -h -S  ot_gesture_updated.elf  > "ot_gesture_updated.list"
    text	   data	    bss	    dec	    hex	filename
-  23928	    132	   1916	  25976	   6578	ot_gesture_updated.elf
+  24056	    132	   1916	  26104	   65f8	ot_gesture_updated.elf
 Finished building: default.size.stdout
  
 Finished building: ot_gesture_updated.list
  
 
-01:08:05 Build Finished. 0 errors, 5 warnings. (took 1s.126ms)
+00:04:45 Build Finished. 0 errors, 5 warnings. (took 1s.939ms)
 
